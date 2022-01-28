@@ -1,0 +1,38 @@
+.button-start {
+  background: #e4d0d2;
+  -moz-box-shadow: 5px 5px 2px 0px #869bc6;
+  -webkit-box-shadow: 5px 5px 2px 0px #869bc6;
+  box-shadow: 5px 5px 2px 0px #869bc6;
+  color: black;
+  border-radius: 10px;
+  width: 250px;
+  height: 100px;
+  padding: 10px;
+  display: inline-block;
+  margin: 0px 10px 10px 0px;
+  transition: all 0.1s ease-in-out;
+  -webkit-transition: all 0.1s ease-in-out;
+  position: relative;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-start:active {
+  /*Gracias a que el elemento está en posición relativa, podemos bajarlo 4 px sin alterar el HTML*/
+  top: 4px;
+  /*bajamos el tamaño de la sombra para conseguir el efecto de profundidad*/
+  -moz-box-shadow: 0px 1px 0px 0px #869bc6;
+  -webkit-box-shadow: 0px 1px 0px 0px #869bc6;
+  box-shadow: 0px 1px 0px 0px #869bc6;
+}
+
+.button-start:hover:hover {
+  cursor: pointer;
+  background-color: #e4d0d2;
+}
+
+.grogu-image {
+  margin-bottom: 50px;
+}

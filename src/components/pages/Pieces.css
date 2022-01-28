@@ -1,0 +1,29 @@
+.backgroundPieces {
+  background: linear-gradient(45deg, #e4d0d2, #869bc6);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: #e4d0d2;
+  box-shadow: 5px 5px 10px 5px #869bc6;
+  width: 1300px;
+  height: 700px;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  margin: 20px;
+}
+.container-pieces {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.container-button {
+  margin-top: 100px;
+}

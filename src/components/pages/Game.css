@@ -1,0 +1,14 @@
+.backgroundGame {
+  background: linear-gradient(45deg, #869bc6, #e4d0d2);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-board {
+  display: flex;
+  align-items: center;
+  align-items: center;
+}

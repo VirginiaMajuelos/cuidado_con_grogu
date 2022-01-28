@@ -1,0 +1,37 @@
+.container-nav {
+  padding: 65px;
+  display: block;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.items {
+  display: inline;
+  padding: 40px;
+  margin: 30px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px 5px rgb(54, 54, 54);
+  background-color: rgb(243, 236, 225);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: x-large;
+}
+
+/* .list {
+  list-style-type: none;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.items {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #f1f1f1;
+  cursor: pointer;
+  display: block;
+}  */
