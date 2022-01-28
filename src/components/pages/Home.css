@@ -3,3 +3,12 @@
   min-height: 100vh;
   background-repeat: no-repeat;
 }
+
+.backgroundHome h1 {
+  font-weight: 800;
+  font-size: 6rem;
+  padding: 40px;
+  padding-top: 100px;
+  display: flex;
+  align-content: center;
+}

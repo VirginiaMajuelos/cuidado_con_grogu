@@ -1,9 +1,9 @@
 .container-dado {
   padding: 4px;
-  background-color: tomato;
+  background-color: white;
   width: 150px;
   height: 80px;
-  border-radius: 10%;
+  border-radius: 18%;
   display: flex;
   flex-direction: column;
   justify-content: center;

@@ -9,9 +9,11 @@ const Navbar = () => {
         <Link className="items" to="rules">
           RULES
         </Link>
+
         <Link className="items" to="pieces">
           PIECES
         </Link>
+
         <Link className="items" to="game">
           GAME
         </Link>

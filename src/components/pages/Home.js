@@ -7,6 +7,7 @@ const Home = () => {
     <div>
       <div className="backgroundHome">
         <Navbar />
+        <h1>Cuidado con Grogu!</h1>
       </div>
     </div>
   );

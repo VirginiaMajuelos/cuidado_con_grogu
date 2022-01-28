@@ -4,6 +4,7 @@ import Rules from "./components/pages/Rules";
 import Pieces from "./components/pages/Pieces";
 import Game from "./components/pages/Game";
 import NewGame from "./components/pages/NewGame";
+import "./index.css";
 
 function App() {
   return (

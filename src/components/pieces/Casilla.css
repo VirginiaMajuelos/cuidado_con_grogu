@@ -1,11 +1,10 @@
 .container-casilla {
   background-color: rgb(135, 168, 122);
-  height: 120px;
+  height: 20px;
   width: 120px;
   border-radius: 5px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  flex-direction: row;
+  align-items: flex-end;
   margin: 10px;
 }
