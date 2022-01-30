@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+## CUIDADO CON GROGU
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Completa la misión para conseguir información importante para el mandaloriano pero ten cuidado con Grogu, podrá hacerte fracasar en la misión!
 
-## Available Scripts
+Proyecto basado en un juego de Mandalorian (Star Wars)
 
-In the project directory, you can run:
+![](https://i.imgur.com/Xu1WHJm.jpg)
 
-### `npm start`
+# Objetivo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Tu misión consiste en descargar del armario:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Galletas (x3)
+- Huevos (x3)
+- Ranas (x3)
 
-### `npm test`
+Antes de que llegue Grogu al armario.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Instalación y requisitos:
 
-### `npm run build`
+- Tener instalado Node Js
+- Clona el repositorio
+- Installa las dependencias de este repositorio en tu terminal:
+  ` npm install`
+- Installa React router dom:
+  `npm install react-router-dom`
+- Inicia el proyecto:
+  `npm start`
+- Comprueba que se visualiza en tu navegador normalmente en:
+  `localhost:3000`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Tecnologías:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Basado en las siguientes tecnologías:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![](https://i.imgur.com/lDGWqTj.png =50x50)![](https://i.imgur.com/q6xFcsI.png =50x50)![](https://i.imgur.com/o7w9YjC.png =50x50) ![](https://i.imgur.com/2uBZbyO.png =70x50)![](https://i.imgur.com/SN3aguM.png =50x50)
