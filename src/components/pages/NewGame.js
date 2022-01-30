@@ -29,9 +29,6 @@ const NewGame = ({
   const [six, setSix] = useState(false);
   const [seven, setSeven] = useState(false);
 
-  //actualización del armario para completar la misión
-
-  // Resultado Dado:
   const options = ["Grogu", "Galletas", "Huevos", "Ranas"];
   let resultTotal = options[Math.floor(Math.random() * 4)];
 
@@ -39,37 +36,31 @@ const NewGame = ({
     setResultDice(resultTotal);
     if (resultTotal === "Galletas") {
       setScoreCookie(scoreCookie - 1);
-      console.log("soy una galleta restandome", scoreCookie - 1);
     } else if (resultTotal === "Huevos") {
       setScoreEgg(scoreEgg - 1);
-      console.log("soy una Huevo restandome", scoreEgg - 1);
     } else if (resultTotal === "Ranas") {
       setScoreFrog(scoreFrog - 1);
-      console.log("soy una Rana restandome", scoreFrog - 1);
     } else if (resultTotal === "Grogu") {
       setOne(false);
-      setScoreGrogu(scoreGrogu + 1);
-      console.log("soy grogu avanzando", scoreGrogu + 1);
-    } else if (resultTotal === "Grogu") {
       setTwo(true);
       setScoreGrogu(scoreGrogu + 1);
-      console.log("soy grogu avanzando", scoreGrogu + 1);
     } else if (resultTotal === "Grogu") {
+      setTwo(false);
       setThree(true);
       setScoreGrogu(scoreGrogu + 1);
-      console.log("soy grogu avanzando", scoreGrogu + 1);
+    } else if (resultTotal === "Grogu") {
+      setThree(false);
+      setFour(true);
+      setScoreGrogu(scoreGrogu + 1);
     } else if (resultTotal === "Grogu") {
       setFour(true);
       setScoreGrogu(scoreGrogu + 1);
-      console.log("soy grogu avanzando", scoreGrogu + 1);
     } else if (resultTotal === "Grogu") {
       setFive(true);
       setScoreGrogu(scoreGrogu + 1);
-      console.log("soy grogu avanzando", scoreGrogu + 1);
     } else if (resultTotal === "Grogu") {
       setSix(true);
       setScoreGrogu(scoreGrogu + 1);
-      console.log("soy grogu avanzando", scoreGrogu + 1);
     }
     const misionDone = () => {
       if (scoreCookie <= 0 && scoreFrog <= 0 && scoreEgg <= 0) {
@@ -81,59 +72,12 @@ const NewGame = ({
     misionDone();
   };
 
-  // Dado y acciones:
-
   return (
     <div className="backgroundGame">
       <div className="container-board">
-        <div className="grogu-image">
+        <div>
           <img
-            className={one ? "" : "hiden"}
-            src={grogu}
-            alt="grogu"
-            width={150}
-            height={200}
-          ></img>
-        </div>
-        <div className="grogu-image">
-          <img
-            className={two ? "" : "hiden"}
-            src={grogu}
-            alt="grogu"
-            width={150}
-            height={200}
-          ></img>
-        </div>
-        <div className="grogu-image">
-          <img
-            className={three ? "" : "hiden"}
-            src={grogu}
-            alt="grogu"
-            width={150}
-            height={200}
-          ></img>
-        </div>
-        <div className="grogu-image">
-          <img
-            className={four ? "" : "hiden"}
-            src={grogu}
-            alt="grogu"
-            width={150}
-            height={200}
-          ></img>
-        </div>
-        <div className="grogu-image">
-          <img
-            className={five ? "" : "hiden"}
-            src={grogu}
-            alt="grogu"
-            width={150}
-            height={200}
-          ></img>
-        </div>
-        <div className="grogu-image">
-          <img
-            className={six ? "" : "hiden"}
+            className={one ? "grogu-image" : "hiden"}
             src={grogu}
             alt="grogu"
             width={150}
@@ -142,19 +86,64 @@ const NewGame = ({
         </div>
         <div>
           <img
-            className={seven ? "" : "hiden"}
+            className={two ? "grogu-image" : "hiden"}
             src={grogu}
             alt="grogu"
             width={150}
             height={200}
           ></img>
+          <div className="container-casilla"></div>
         </div>
-        <div className="container-casilla"></div>
-        <div className="container-casilla"></div>
-        <div className="container-casilla"></div>
-        <div className="container-casilla"></div>
-        <div className="container-casilla"></div>
-        <div className="container-casilla"></div>
+        <div>
+          <img
+            className={three ? "grogu-image" : "hiden"}
+            src={grogu}
+            alt="grogu"
+            width={150}
+            height={200}
+          ></img>
+          <div className="container-casilla"></div>
+        </div>
+        <div>
+          <img
+            className={four ? "grogu-image" : "hiden"}
+            src={grogu}
+            alt="grogu"
+            width={150}
+            height={200}
+          ></img>
+          <div className="container-casilla"></div>
+        </div>
+        <div>
+          <img
+            className={five ? "grogu-image" : "hiden"}
+            src={grogu}
+            alt="grogu"
+            width={150}
+            height={200}
+          ></img>
+          <div className="container-casilla"></div>
+        </div>
+        <div>
+          <img
+            className={six ? "grogu-image" : "hiden"}
+            src={grogu}
+            alt="grogu"
+            width={150}
+            height={200}
+          ></img>
+          <div className="container-casilla"></div>
+        </div>
+        <div>
+          <img
+            className={seven ? "grogu-image" : "hiden"}
+            src={grogu}
+            alt="grogu"
+            width={150}
+            height={200}
+          ></img>
+          <div className="container-casilla"></div>
+        </div>
 
         <div className="container-closet">
           <div className="container-recipiente">
@@ -177,7 +166,6 @@ const NewGame = ({
           </div>
         </div>
       </div>
-      <h3>Dado:</h3>
       <div className="container-dado" onClick={showResult}>
         <h2>{resultDice}</h2>
       </div>
