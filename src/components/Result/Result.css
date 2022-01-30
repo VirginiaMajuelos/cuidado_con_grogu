@@ -1,4 +1,15 @@
-.container-youwinn {
-  background: linear-gradient(45deg, #869bc6, #e4d0d2);
-  min-height: 100vh;
+.container-result {
+  background: white;
+  border-radius: 10px;
+  color: rgb(10, 82, 48);
+  margin: 30px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hiden {
+  display: none;
 }

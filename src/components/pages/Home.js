@@ -6,8 +6,10 @@ const Home = () => {
   return (
     <div>
       <div className="backgroundHome">
-        <Navbar />
-        <h1>Cuidado con Grogu!</h1>
+        <div className="bgimagen">
+          <Navbar />
+          <h1>Cuidado con Grogu!</h1>
+        </div>
       </div>
     </div>
   );

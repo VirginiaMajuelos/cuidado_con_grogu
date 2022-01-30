@@ -1,7 +1,18 @@
 .backgroundHome {
-  background-image: url("../../assests/manda4.jpeg");
+  background: linear-gradient(45deg, #e4d0d2, #869bc6);
   min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bgimagen {
+  background-image: url("../../assests/manda4.jpeg");
   background-repeat: no-repeat;
+  height: 1000px;
+  width: 1800px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px 10px #597dc4;
 }
 
 .backgroundHome h1 {
