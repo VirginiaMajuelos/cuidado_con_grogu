@@ -33,4 +33,4 @@ Antes de que llegue Grogu al armario.
 
 Basado en las siguientes tecnologías:
 
-![](https://i.imgur.com/lDGWqTj.png =50x50)![](https://i.imgur.com/q6xFcsI.png =50x50)![](https://i.imgur.com/o7w9YjC.png =50x50) ![](https://i.imgur.com/2uBZbyO.png =70x50)![](https://i.imgur.com/SN3aguM.png =50x50)
+![](https://i.imgur.com/lDGWqTj.png =50x50) ![](https://i.imgur.com/q6xFcsI.png =50x50) ![](https://i.imgur.com/o7w9YjC.png =50x50) ![](https://i.imgur.com/2uBZbyO.png =70x50) ![](https://i.imgur.com/SN3aguM.png =50x50)
